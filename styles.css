@@ -1,14 +1,63 @@
+/* Colors:
+ #557174--Dark Green
+ #9dad7f--olive green
+ #f7f7e8 -- beige
+*/
+
 .grid-layout{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 50px auto 1fr auto;
+    grid-gap: 2rem;
 
 }
 
-#nav-bar{
+/* Navigation Bar */
+.sidebar{
     grid-column: 1;
-    grid-row: 1;
+    background-color: #557174;
+    margin:auto;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box; 
+    -moz-box-sizing: content-box;
+   
+
 }
+
+#navbar{
+    
+}
+
+.navtitle{
+    color: #557174;
+    background-color: #f7f7e8 ;
+    font-size: 4vh;
+    text-align: center;
+    padding: 2vh;
+    border: solid;
+    border-color:  #9dad7f;
+
+}
+
+.nav li{
+    list-style: none;
+    padding: 1vh;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-link:hover{
+    color: #9dad7f;
+}
+
 
 #main-doc{
     grid-column: 2;
