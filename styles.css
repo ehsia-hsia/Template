@@ -68,7 +68,7 @@
     padding: 3vh;
 }
 
-@media(max-width: 800px){
+@media(max-width: 1200px){
     .grid-layout{
         grid-template-columns: 1fr;
         grid-template-rows: .5fr 4fr ;
