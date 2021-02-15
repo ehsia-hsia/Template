@@ -2,6 +2,7 @@
  #557174--Dark Green
  #9dad7f--olive green
  #f7f7e8 -- beige
+ #c7cfb7 --lightest green
 */
 
 .grid-layout{
@@ -26,10 +27,6 @@
     -moz-box-sizing: content-box;
    
 
-}
-
-#navbar{
-    
 }
 
 .navtitle{
@@ -58,8 +55,21 @@
     color: #9dad7f;
 }
 
-
+/* Main Content */
 #main-doc{
     grid-column: 2;
     grid-row: 1;
 }
+
+.sectiontitle{
+    font-size: 4vh;
+    color: #557174;
+    background-color: #c7cfb7;
+    padding: 3vh;
+}
+
+@media(max-width 800px){
+    .grid-layout{
+      display: block;
+    }
+  }
