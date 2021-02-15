@@ -1,0 +1,16 @@
+.grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 50px auto 1fr auto;
+
+}
+
+#nav-bar{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#main-doc{
+    grid-column: 2;
+    grid-row: 1;
+}
