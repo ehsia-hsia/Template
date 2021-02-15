@@ -68,8 +68,23 @@
     padding: 3vh;
 }
 
-@media(max-width 800px){
+@media(max-width: 800px){
     .grid-layout{
-      display: block;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 4fr ;
+    }
+    .sidebar{
+        grid-row: 1;
+        grid-column: 1;
+        width: 100%;
+        position: sticky;
+    }
+    .nav li{
+       display: inline;
+    }
+    #main-doc{
+        grid-row: 2;
+        grid-column: 1;
+
     }
   }
